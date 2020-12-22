@@ -1,0 +1,83 @@
+1. kan hitta på flera searchTypes och tagga dem med min och/eller max för att styra så att de bara komma upp för en vis storlek på städer
+2. Lägg till så det kan vara lite random storlek på radien. 5km standard. kan vara 1-10km typ?
+3. Skriv om hela appen så det blir ett riktigt quiz med poängsystem.
+    a. hemskärm, leaderboard, settings,
+    b. när man startar ett quiz så genereras 10 frågor. random stad, random seartchtype, random radius. 
+    c. Lägg till fält för att göra gissning, poängsystem för att räkna score beronde på hur nära man var. percenttile, 
+4. lägg upp leaderbarod likt patchfeud.
+5. framtida planer är local multiplayer där man turas om att gissa och den andra hissar högre eller lägre. annat typ av poängsystem. eller bara enkelt 0 eller 1 för rätt/fel
+6. lägg till flera gametypes. olika områden: Sweden, Europe, World, Captials, America, rural, city, CURRENT_LOCATION
+gametypes kan också vara olika kategoreir av searchtypes. (food, buuldings..? sports?)
+types:
+kyrkor
+hotell
+mataffärer
+skolor
+sportarenor?fotbollsplaner?
+gym
+https://taginfo.openstreetmap.org/keys/amenity#values
+https://taginfo.openstreetmap.org/keys/building#values
+https://taginfo.openstreetmap.org/keys/landuse
+https://taginfo.openstreetmap.org/keys/leisure#values
+https://taginfo.openstreetmap.org/keys/sport#values
+https://taginfo.openstreetmap.org/keys/shop#values
+https://taginfo.openstreetmap.org/keys/man_made#values
+https://taginfo.openstreetmap.org/keys/emergency#values
+https://taginfo.openstreetmap.org/keys/cuisine#values
+https://taginfo.openstreetmap.org/keys/office#values
+
+
+vissa types är dåligt räknade. skiljer sig mycket från ställe till ställe.
+t.ex. träd, benches, 
+
+//TODO skapa en quiz model. som innehåller en lista med frågor. currentQuestionId,
+//en question model har: id, radius, location, searchType
+//skapa hela quizModel med alla frågor och hämta alla svar direkt.
+//ha felhantering vad som händero men fråga inte lyckas hämtas.. retry x antal gånger och om det fortfarande inte går
+//så visa felmeddelande med retryknapp
+//TODO
+// ta in bootstrap, sessionProvider, quizProvider, tabbar, loader
+//patchfeud utan inloggning.
+//ha en tabb som heter play. Med en knapp för starta nytt quiz. (kommer mera väl när vi har gamemodes m.m.)
+//den knappen genererar en ett quiz via quizProvider med frågor och svar. Och skickar sen till denna quiz.dart
+//(någon fin progressbar eller liknande kanske för genereringen av quizet.
+// blir ju ett anrop per fråga så borde gå att få till s¨å den visar % klart)
+//quiz.dart konsumerar quizprovider för att visa frågor och svara.
+
+//spara varje avslutat quiz till firebase leaderboard (realtimedb eller firestore?)
+// spara alla info. name, Score, dateTime, size(nrQuiestions), gameTyp "se_standard"?
+//visa bara upp det rakt upp och ner till en början. skit i weekly/month/all time etc..
+//kolla om detta fungerar på firebase webb. och isåfall kanske kör på firestore som stödjer det.
+//fast bullshit då många features kommer kräva mobilspecifika saker? eller kanske inte? kan lösas.
+
+[out:json][timeout:25];
+(
+  node["office"="insurance"](around:50000,33.9562003,-118.353132);
+  node["office"="lawyer"](around:50000,33.9562003,-118.353132);
+  node["amenity"="place_of_worship"](around:50000,33.9562003,-118.353132);
+  node["leisure"="playground"](around:50000,33.9562003,-118.353132);
+  node["leisure"="sports_centre"](around:50000,33.9562003,-118.353132);
+
+  oklart vilka av dessa 3 som är bäst? convenience + kiosk är typ samma sak?
+  node["shop"="supermarket"](around:50000,33.9562003,-118.353132);
+  node["shop"="convenience"](around:50000,33.9562003,-118.353132);
+  node["shop"="kiosk"](around:50000,33.9562003,-118.353132);
+
+    node["shop"="clothes"](around:50000,33.9562003,-118.353132);
+  node["shop"="hairdresser"](around:50000,33.9562003,-118.353132);
+
+
+systembolag?
+    node["shop"="alcohol"](around:50000,33.9562003,-118.353132);
+
+
+kanske
+      node["emergency"="defibrillator"](around:50000,33.9562003,-118.353132);
+
+
+
+
+
+
+);
+out body;

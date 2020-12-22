@@ -1,0 +1,2586 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.8 7d656e78",
+  "osm3s": {
+    "timestamp_osm_base": "2020-12-21T15:36:02Z",
+    "timestamp_areas_base": "2020-12-21T14:43:02Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 15412058,
+      "lat": 56.0441984,
+      "lon": 12.7040684,
+      "tags": {
+        "capital": "6",
+        "name": "Helsingborg",
+        "name:et": "Helsingborg",
+        "name:he": "הלסינגבורג",
+        "name:hu": "Helsingborg",
+        "name:is": "Helsingjaborg",
+        "name:lt": "Helsingborgas",
+        "name:mk": "Хелсингборг",
+        "name:ru": "Хельсингборг",
+        "old_name": "Hälsingborg",
+        "place": "city",
+        "population": "93838",
+        "ref:se:pts:postort": "HELSINGBORG",
+        "ref:se:scb": "3452",
+        "wikidata": "Q25411",
+        "wikipedia": "sv:Helsingborg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 20975578,
+      "lat": 58.4098135,
+      "lon": 15.6245252,
+      "tags": {
+        "capital": "county",
+        "name": "Linköping",
+        "name:ar": "لينشوبينغ",
+        "name:be": "Лінчэпінг",
+        "name:bg": "Линшьопинг",
+        "name:el": "Λινκόπινγκ",
+        "name:fa": "لینشوپینگ",
+        "name:hy": "Լինչոպինգ",
+        "name:ja": "リンシェーピング",
+        "name:ka": "ლინჩეპინგი",
+        "name:ko": "린셰핑",
+        "name:la": "Lincopia",
+        "name:lt": "Linšiopingas",
+        "name:lv": "Linšēpinga",
+        "name:mk": "Линшепинг",
+        "name:ru": "Линчёпинг",
+        "name:sr": "Линћепинг",
+        "name:sv": "Linköping",
+        "name:th": "ลินเชอปิง",
+        "name:uk": "Лінчепінг",
+        "name:zh": "林雪平",
+        "place": "city",
+        "population": "111267",
+        "ref:se:pts:postort": "LINKÖPING",
+        "ref:se:scb": "1152",
+        "website": "https://www.linkoping.se/",
+        "wikidata": "Q25413",
+        "wikipedia": "sv:Linköping"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25508576,
+      "lat": 56.8787183,
+      "lon": 14.8094385,
+      "tags": {
+        "capital": "county",
+        "name": "Växjö",
+        "name:he": "וקשה",
+        "name:hu": "Växjö",
+        "name:la": "Wexionia",
+        "name:lt": "Vekšė",
+        "name:ru": "Векшё",
+        "name:sv": "Växjö",
+        "place": "city",
+        "population": "55600",
+        "ref:se:pts:postort": "VÄXJÖ",
+        "ref:se:scb": "2024",
+        "wikidata": "Q26152",
+        "wikipedia": "sv:Växjö"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25735371,
+      "lat": 59.8586126,
+      "lon": 17.6387436,
+      "tags": {
+        "capital": "county",
+        "name": "Uppsala",
+        "name:de": "Uppsala",
+        "name:eo": "Upsalo",
+        "name:fi": "Uppsala",
+        "name:he": "אופסלה",
+        "name:hu": "Uppsala",
+        "name:is": "Uppsalir",
+        "name:ko": "웁살라",
+        "name:lt": "Upsala",
+        "name:nds": "Uppsala",
+        "name:ru": "Уппсала",
+        "name:sv": "Uppsala",
+        "name:yi": "אופסאלא",
+        "old_name": "Östra Aros",
+        "old_name:fi": "Upsala",
+        "place": "city",
+        "population": "128400",
+        "ref:se:pts:postort": "UPPSALA",
+        "ref:se:scb": "0656",
+        "website": "https://www.uppsala.se",
+        "wikidata": "Q25286",
+        "wikipedia": "sv:Uppsala"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25929985,
+      "lat": 59.3251172,
+      "lon": 18.0710935,
+      "tags": {
+        "admin_level": "2",
+        "alt_name:gl": "Stockholm",
+        "alt_name:he": "שטוקהולם",
+        "capital": "yes",
+        "name": "Stockholm",
+        "name:am": "ስቶኮልም",
+        "name:an": "Estocolmo",
+        "name:ang": "Stoccholm",
+        "name:ar": "ستوكهولم",
+        "name:arc": "ܣܛܘܩܗܘܠܡ",
+        "name:arz": "ستوكهولم",
+        "name:ast": "Estocolmu",
+        "name:az": "Stokholm",
+        "name:bat-smg": "Stuokhuolms",
+        "name:be": "Стакгольм",
+        "name:be-tarask": "Стакгольм",
+        "name:bg": "Стокхолм",
+        "name:bn": "স্টকহোম",
+        "name:bo": "སི་ཏོག་ཧོ་ལིམ།",
+        "name:ca": "Estocolm",
+        "name:ckb": "ستۆکھۆڵم",
+        "name:co": "Stoccolma",
+        "name:cs": "Stockholm",
+        "name:csb": "Sztokhòlm",
+        "name:cv": "Стокгольм",
+        "name:de": "Stockholm",
+        "name:diq": "Stokholm",
+        "name:dk": "Stockholm",
+        "name:el": "Στοκχόλμη",
+        "name:en": "Stockholm",
+        "name:eo": "Stokholmo",
+        "name:es": "Estocolmo",
+        "name:ext": "Estocolmu",
+        "name:fa": "استکهلم",
+        "name:fi": "Tukholma",
+        "name:fiu-vro": "Stokholm",
+        "name:fo": "Stokkhólmur",
+        "name:fr": "Stockholm",
+        "name:fy": "Stokholm",
+        "name:ga": "Stócólm",
+        "name:gl": "Estocolmo",
+        "name:he": "סטוקהולם",
+        "name:hi": "स्टॉकहोम",
+        "name:hr": "Stockholm",
+        "name:ht": "Stokolm",
+        "name:hu": "Stockholm",
+        "name:hy": "Ստոքհոլմ",
+        "name:is": "Stokkhólmur",
+        "name:it": "Stoccolma",
+        "name:iu": "ᔅᑑᒃᓱᓪᒻ",
+        "name:iu-Latn": "stuukhulm",
+        "name:ja": "ストックホルム",
+        "name:ka": "სტოკჰოლმი",
+        "name:kk": "Стокгольм",
+        "name:ko": "스톡홀름",
+        "name:koi": "Стёколна",
+        "name:ku": "Stokholm",
+        "name:kv": "Стокгольм",
+        "name:la": "Holmia",
+        "name:lad": "Estokolma",
+        "name:lij": "Stoccolma",
+        "name:lmo": "Stuculma",
+        "name:lt": "Stokholmas",
+        "name:lv": "Stokholma",
+        "name:lzh": "斯德哥爾摩",
+        "name:mdf": "Стокольма",
+        "name:mhr": "Стокгольм",
+        "name:mk": "Стокхолм",
+        "name:ml": "സ്റ്റോക്ക്‌ഹോം",
+        "name:mr": "स्टॉकहोम",
+        "name:mrj": "Стокгольм",
+        "name:mt": "Stokkolma",
+        "name:my": "စတော့ဟုမ်းမြို့",
+        "name:myv": "Стокгольм ош",
+        "name:mzn": "استکهلم",
+        "name:nah": "Estocolmo",
+        "name:nds": "Stockholm",
+        "name:no": "Stockholm",
+        "name:oc": "Estocòlme",
+        "name:os": "Стокгольм",
+        "name:pl": "Sztokholm",
+        "name:pms": "Stocòlma",
+        "name:pnb": "سٹاکہوم",
+        "name:pt": "Estocolmo",
+        "name:ru": "Стокгольм",
+        "name:sah": "Стокhольм",
+        "name:sc": "Stoccolma",
+        "name:se": "Stockholbma",
+        "name:sk": "Štokholm",
+        "name:sq": "Stokholmi",
+        "name:sr": "Стокхолм",
+        "name:sv": "Stockholm",
+        "name:szl": "Sztokholm",
+        "name:ta": "ஸ்டாக்ஹோம்",
+        "name:tg": "Стокҳолм",
+        "name:th": "สตอกโฮล์ม",
+        "name:tt": "Стокгольм",
+        "name:udm": "Стокгольм",
+        "name:ug": "Stokgolm",
+        "name:uk": "Стокгольм",
+        "name:ur": "سٹاکہوم",
+        "name:uz": "Stokgolm",
+        "name:vec": "Stocólma",
+        "name:wo": "Stokolm",
+        "name:yi": "שטאקהאלם",
+        "name:yue": "斯德哥爾摩",
+        "name:zh": "斯德哥爾摩",
+        "name:zh-Hans": "斯德哥尔摩",
+        "place": "city",
+        "population": "829417",
+        "ref:se:pts:postort": "STOCKHOLM",
+        "ref:se:scb": "0336",
+        "short_name": "Sthlm",
+        "wikidata": "Q1754",
+        "wikipedia": "sv:Stockholm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25930131,
+      "lat": 57.7072326,
+      "lon": 11.9670171,
+      "tags": {
+        "capital": "4",
+        "name": "Göteborg",
+        "name:ar": "غوتنبرغ",
+        "name:bs": "Geteborg",
+        "name:de": "Göteborg",
+        "name:el": "Γοτθομβούργο",
+        "name:en": "Gothenburg",
+        "name:eo": "Gotenburgo",
+        "name:es": "Gotemburgo",
+        "name:fi": "Göteborg",
+        "name:he": "גטבורג",
+        "name:hr": "Göteborg",
+        "name:hu": "Göteborg",
+        "name:is": "Gautaborg",
+        "name:ko": "예테보리",
+        "name:la": "Gothoburgum",
+        "name:lt": "Geteborgas",
+        "name:lv": "Gēteborga",
+        "name:nl": "Göteborg",
+        "name:pl": "Göteborg",
+        "name:pt": "Gotemburgo",
+        "name:ru": "Гётеборг",
+        "name:sv": "Göteborg",
+        "name:yi": "געטעבארג",
+        "name:zh": "哥德堡",
+        "old_name:de": "Gotenburg",
+        "place": "city",
+        "population": "522259",
+        "ref:se:pts:postort": "GÖTEBORG",
+        "ref:se:scb": "4368",
+        "short_name": "Gbg",
+        "wikidata": "Q25287",
+        "wikipedia": "sv:Göteborg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25975135,
+      "lat": 59.3809146,
+      "lon": 13.5027631,
+      "tags": {
+        "capital": "4",
+        "name": "Karlstad",
+        "name:he": "קרלסטד",
+        "name:hu": "Karlstad",
+        "name:la": "Carolostadium Suevicum",
+        "name:lt": "Karlstadas",
+        "name:lv": "Kārlstāde",
+        "name:ru": "Карлстад",
+        "name:sv": "Karlstad",
+        "name:uk": "Карлстад",
+        "place": "city",
+        "population": "62797",
+        "population:date": "2018-03-28",
+        "population:source": "SCB",
+        "ref:se:pts:postort": "KARLSTAD",
+        "ref:se:scb": "5704",
+        "wikidata": "Q25457",
+        "wikipedia": "sv:Karlstad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26804505,
+      "lat": 55.6052931,
+      "lon": 13.0001566,
+      "tags": {
+        "alt_name:he": "מאלמו",
+        "capital": "4",
+        "name": "Malmö",
+        "name:da": "Malmø",
+        "name:de": "Malmö",
+        "name:en": "Malmo",
+        "name:he": "מאלמה",
+        "name:hu": "Malmö",
+        "name:ja": "マルメ",
+        "name:ko": "말뫼",
+        "name:lt": "Malmė",
+        "name:mk": "Малме",
+        "name:ru": "Мальмё",
+        "name:yi": "מאלמע",
+        "name:yue": "馬列麥",
+        "name:zh": "马尔默",
+        "place": "city",
+        "population": "316588",
+        "ref:se:pts:postort": "MALMÖ",
+        "ref:se:scb": "3604",
+        "wikidata": "Q2211",
+        "wikipedia": "sv:Malmö"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27432055,
+      "lat": 60.6750132,
+      "lon": 17.1467019,
+      "tags": {
+        "capital": "4",
+        "name": "Gävle",
+        "name:he": "יבלה",
+        "name:hu": "Gävle",
+        "name:lt": "Jevlė",
+        "name:ru": "Евле",
+        "name:sv": "Gävle",
+        "old_name": "Gefle",
+        "place": "city",
+        "population": "100000",
+        "ref:se:pts:postort": "GÄVLE",
+        "ref:se:scb": "7076",
+        "wikidata": "Q25748",
+        "wikipedia": "en:Gävle"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27432369,
+      "lat": 63.8256568,
+      "lon": 20.2630745,
+      "tags": {
+        "name": "Umeå",
+        "name:eo": "Umeå",
+        "name:et": "Umeå",
+        "name:fi": "Uumaja",
+        "name:hu": "Umeå",
+        "name:lt": "Umeo",
+        "name:pl": "Umeå",
+        "name:ru": "Умео",
+        "name:se": "Ubmi",
+        "name:sr": "Умео",
+        "name:uk": "Умео",
+        "place": "city",
+        "population": "75000",
+        "wikidata": "Q25579",
+        "wikipedia": "en:Umeå"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27513227,
+      "lat": 59.6110992,
+      "lon": 16.5463679,
+      "tags": {
+        "capital": "county",
+        "name": "Västerås",
+        "name:he": "וסטרוס",
+        "name:lt": "Vesterosas",
+        "name:ru": "Вестерос",
+        "name:sv": "Västerås",
+        "name:yi": "וועסטעראס",
+        "place": "city",
+        "population": "110877",
+        "ref:se:pts:postort": "VÄSTERÅS",
+        "ref:se:scb": "6376",
+        "wikidata": "Q25412",
+        "wikipedia": "sv:Västerås"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27558697,
+      "lat": 63.1793655,
+      "lon": 14.6357061,
+      "tags": {
+        "name": "Östersund",
+        "name:lt": "Estešundas",
+        "name:ru": "Эстерсунд",
+        "name:sma": "Staare",
+        "name:sr": "Естерсунд",
+        "name:sv": "Östersund",
+        "place": "city",
+        "population": "44000",
+        "ref:se:pts:postort": "ÖSTERSUND",
+        "ref:se:scb": "8044",
+        "wikidata": "Q26515",
+        "wikipedia": "en:Östersund"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27559814,
+      "lat": 65.5831187,
+      "lon": 22.1459535,
+      "tags": {
+        "capital": "4",
+        "name": "Luleå",
+        "name:fi": "Luulaja",
+        "name:lt": "Liuleo",
+        "name:ru": "Лулео",
+        "name:sr": "Лулео",
+        "name:sv": "Luleå",
+        "place": "city",
+        "population": "73864",
+        "ref:se:pts:postort": "LULEÅ",
+        "ref:se:scb": "8724",
+        "wikidata": "Q26268",
+        "wikipedia": "en:Luleå"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27560253,
+      "lat": 63.2888613,
+      "lon": 18.7160209,
+      "tags": {
+        "loc_name": "övik",
+        "name": "Örnsköldsvik",
+        "name:en": "Örnsköldsvik",
+        "name:ru": "Эрншёльдсвик",
+        "name:uk": "Ерншельдсвік",
+        "place": "city",
+        "population": "32953",
+        "ref:se:pts:postort": "ÖRNSKÖLDSVIK",
+        "ref:se:scb": "7744",
+        "short_name": "ö-vik",
+        "wikidata": "Q28327",
+        "wikipedia": "sv:Örnsköldsvik"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27593232,
+      "lat": 59.2747287,
+      "lon": 15.2151181,
+      "tags": {
+        "capital": "4",
+        "name": "Örebro",
+        "name:he": "ארברו",
+        "name:lt": "Erebru",
+        "name:ru": "Эребру",
+        "name:sv": "Örebro",
+        "name:yi": "ערעברו",
+        "old_name": "Ørabro",
+        "place": "city",
+        "population": "98237",
+        "ref:se:pts:postort": "ÖREBRO",
+        "ref:se:scb": "6188",
+        "wikidata": "Q25732",
+        "wikipedia": "sv:Örebro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28898845,
+      "lat": 59.3717379,
+      "lon": 16.5051474,
+      "tags": {
+        "capital": "municipality",
+        "name": "Eskilstuna",
+        "name:lt": "Eskilstiuna",
+        "name:ru": "Эскильстуна",
+        "name:sv": "Eskilstuna",
+        "place": "city",
+        "population": "60185",
+        "ref:se:pts:postort": "ESKILSTUNA",
+        "ref:se:scb": "0740",
+        "wikidata": "Q26498",
+        "wikipedia": "en:Eskilstuna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 191664748,
+      "lat": 57.7825634,
+      "lon": 14.165719,
+      "tags": {
+        "capital": "4",
+        "name": "Jönköping",
+        "name:la": "Junecopia",
+        "name:ru": "Йёнчёпинг",
+        "name:sv": "Jönköping",
+        "place": "city",
+        "population": "84423",
+        "ref:se:pts:postort": "JÖNKÖPING",
+        "ref:se:scb": "1544",
+        "wikidata": "Q25415",
+        "wikipedia": "sv:Jönköping"
+      }
+    },
+    {
+      "type": "node",
+      "id": 283253592,
+      "lat": 62.3907552,
+      "lon": 17.3071024,
+      "tags": {
+        "capital": "4",
+        "comment": ">50000 in pop => city",
+        "date": "2015-12-31",
+        "name": "Sundsvall",
+        "name:he": "סונדרסוואל",
+        "name:ru": "Сундсвалль",
+        "name:sma": "Sjädtavaellie",
+        "name:sv": "Sundsvall",
+        "place": "city",
+        "population": "57606",
+        "ref:se:pts:postort": "SUNDSVALL, SUNDSBRUK",
+        "ref:se:scb": "7688",
+        "wikidata": "Q26476"
+      }
+    },
+    {
+      "type": "node",
+      "id": 510542745,
+      "lat": 60.6070068,
+      "lon": 15.6323059,
+      "tags": {
+        "capital": "4",
+        "name": "Falun",
+        "name:ru": "Фалун",
+        "name:sv": "Falun",
+        "note": "Falun är residensstad och ska därför vara city, inte town.",
+        "old_name": "Fahlun;Fahlund",
+        "place": "city",
+        "population": "36447",
+        "ref:se:pts:postort": "FALUN",
+        "ref:se:scb": "6504",
+        "website": "https://www.falun.se/",
+        "wikidata": "Q26509",
+        "wikipedia": "sv:Falun"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1594669682,
+      "lat": 56.6739826,
+      "lon": 12.8574827,
+      "tags": {
+        "capital": "4",
+        "name": "Halmstad",
+        "name:he": "האלמסטד",
+        "name:la": "Halmostadium",
+        "name:lt": "Halmstadas",
+        "name:ru": "Хальмстад",
+        "place": "city",
+        "population": "55688",
+        "ref:se:pts:postort": "HALMSTAD",
+        "ref:se:scb": "3960",
+        "wikidata": "Q26521",
+        "wikipedia": "sv:Halmstad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1599473536,
+      "lat": 56.1621073,
+      "lon": 15.5866422,
+      "tags": {
+        "name": "Karlskrona",
+        "name:he": "קרלסקרונה",
+        "name:is": "Karlskróna",
+        "name:lt": "Karlskruna",
+        "name:ru": "Карлскруна",
+        "name:sv": "Karlskrona",
+        "place": "city",
+        "population": "35212",
+        "ref:se:pts:postort": "KARLSKRONA",
+        "ref:se:scb": "2680",
+        "wikidata": "Q25789",
+        "wikipedia": "sv:Karlskrona"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1607319731,
+      "lat": 56.6628826,
+      "lon": 16.3662382,
+      "tags": {
+        "capital": "county",
+        "name": "Kalmar",
+        "name:la": "Calmaria",
+        "name:lt": "Kalmaras",
+        "name:ru": "Кальмар",
+        "name:sv": "Kalmar",
+        "old_name": "Calmar",
+        "place": "city",
+        "population": "35170",
+        "ref:se:pts:postort": "KALMAR",
+        "ref:se:scb": "2280",
+        "start_date:old_name": "before 1532",
+        "wikidata": "Q26345",
+        "wikipedia": "sv:Kalmar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11094836,
+      "lat": 58.7545409,
+      "lon": 17.0120656,
+      "tags": {
+        "capital": "4",
+        "name": "Nyköping",
+        "name:lt": "Nišiopingas",
+        "name:ru": "Нючёпинг",
+        "name:sv": "Nyköping",
+        "name:zh": "尼雪平",
+        "place": "town",
+        "population": "29891",
+        "ref:se:pts:postort": "NYKÖPING",
+        "ref:se:scb": "0812",
+        "wikidata": "Q54356",
+        "wikipedia": "en:Nyköping"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21441802,
+      "lat": 60.1503771,
+      "lon": 15.1813989,
+      "tags": {
+        "is_in": "Ludvika kommun, Dalarna, Dalarnas län, Sweden",
+        "name": "Ludvika",
+        "name:ru": "Лудвика",
+        "name:sv": "Ludvika",
+        "place": "town",
+        "population": "15245",
+        "ref:se:pts:postort": "LUDVIKA",
+        "ref:se:scb": "6624",
+        "website": "https://www.ludvika.se/",
+        "wikipedia": "sv:Ludvika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 21528692,
+      "lat": 56.2008565,
+      "lon": 12.5515849,
+      "tags": {
+        "name": "Höganäs",
+        "name:lt": "Hioganas",
+        "name:ru": "Хёганес",
+        "place": "town",
+        "population": "14356",
+        "ref:se:pts:postort": "HÖGANÄS",
+        "ref:se:scb": "3488",
+        "wikidata": "Q911875",
+        "wikipedia": "sv:Höganäs"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25508588,
+      "lat": 58.3898453,
+      "lon": 13.8443792,
+      "tags": {
+        "name": "Skövde",
+        "name:hu": "Skövde",
+        "name:lt": "Šiovdė",
+        "name:ru": "Шёвде",
+        "name:sv": "Skövde",
+        "place": "town",
+        "population": "34466",
+        "ref:se:pts:postort": "SKÖVDE",
+        "ref:se:scb": "5428",
+        "wikidata": "Q21166",
+        "wikipedia": "sv:Skövde"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25597313,
+      "lat": 59.3291667,
+      "lon": 14.5176911,
+      "tags": {
+        "is_in": "Karlskoga kommun, Örebro län, Värmland, Sweden, Scandinavia, Europe",
+        "name": "Karlskoga",
+        "name:ru": "Карлскуга",
+        "name:sv": "Karlskoga",
+        "place": "town",
+        "population": "27562",
+        "population:date": "2018-12-31",
+        "ref:se:pts:postort": "KARLSKOGA",
+        "ref:se:scb": "6008",
+        "wikidata": "Q54732",
+        "wikipedia": "sv:Karlskoga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 25869331,
+      "lat": 59.3113619,
+      "lon": 14.11176,
+      "tags": {
+        "name": "Kristinehamn",
+        "name:ru": "Кристинехамн",
+        "name:sv": "Kristinehamn",
+        "place": "town",
+        "population": "18829",
+        "population:date": "2018-03-28",
+        "population:source": "SCB",
+        "ref:se:pts:postort": "KRISTINEHAMN",
+        "ref:se:scb": "5720",
+        "wikidata": "Q215832",
+        "wikipedia": "sv:Kristinehamn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26290051,
+      "lat": 56.8325886,
+      "lon": 13.9359916,
+      "tags": {
+        "name": "Ljungby",
+        "name:ru": "Юнгбю",
+        "name:sv": "Ljungby",
+        "place": "town",
+        "population": "15205",
+        "ref:se:pts:postort": "LJUNGBY",
+        "ref:se:scb": "1936",
+        "wikidata": "Q744491",
+        "wikipedia": "sv:Ljungby"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26458262,
+      "lat": 58.3846075,
+      "lon": 13.4397675,
+      "tags": {
+        "name": "Skara",
+        "name:ru": "Скара",
+        "name:sv": "Skara",
+        "place": "town",
+        "population": "11437",
+        "ref:se:pts:postort": "SKARA",
+        "ref:se:scb": "5420",
+        "wikipedia": "sv:Skara"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26502249,
+      "lat": 61.0082091,
+      "lon": 14.5431333,
+      "tags": {
+        "name": "Mora",
+        "name:ru": "Мура",
+        "name:sv": "Mora",
+        "place": "town",
+        "population": "10896",
+        "ref:se:pts:postort": "MORA",
+        "ref:se:scb": "6648",
+        "wikidata": "Q849874",
+        "wikipedia": "sv:Mora"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26502343,
+      "lat": 60.4856426,
+      "lon": 15.4234561,
+      "tags": {
+        "name": "Borlänge",
+        "name:ru": "Бурленге",
+        "name:sv": "Borlänge",
+        "old_name": "Borlaengio;Borlenge;Bårlinge",
+        "place": "town",
+        "population": "39422",
+        "ref:se:pts:postort": "BORLÄNGE",
+        "ref:se:scb": "6444",
+        "short_name": "Blg",
+        "url:official": "http://www.borlange.se",
+        "wikidata": "Q54341",
+        "wikipedia": "en:Borlänge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26585395,
+      "lat": 58.2827931,
+      "lon": 12.2908612,
+      "tags": {
+        "name": "Trollhättan",
+        "name:he": "טרולהטן",
+        "name:ru": "Тролльхеттан",
+        "place": "town",
+        "population": "44498",
+        "ref:se:pts:postort": "TROLLHÄTTAN",
+        "ref:se:scb": "5084",
+        "wikidata": "Q54339"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26585396,
+      "lat": 58.3811988,
+      "lon": 12.3226877,
+      "tags": {
+        "name": "Vänersborg",
+        "name:ru": "Венерсборг",
+        "place": "town",
+        "population": "21699",
+        "ref:se:pts:postort": "VÄNERSBORG",
+        "ref:se:scb": "5132",
+        "wikidata": "Q54759"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26585398,
+      "lat": 58.3490555,
+      "lon": 11.9382855,
+      "tags": {
+        "name": "Uddevalla",
+        "name:hu": "Uddevalla",
+        "name:lt": "Udevala",
+        "name:ru": "Уддевалла",
+        "place": "town",
+        "population": "31212",
+        "ref:se:pts:postort": "UDDEVALLA",
+        "ref:se:scb": "4608",
+        "wikidata": "Q27447",
+        "wikipedia": "sv:Uddevalla"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26587059,
+      "lat": 57.4260178,
+      "lon": 15.0870226,
+      "tags": {
+        "name": "Vetlanda",
+        "name:ru": "Ветланда",
+        "name:sv": "Vetlanda",
+        "place": "town",
+        "population": "13050",
+        "ref:se:pts:postort": "VETLANDA",
+        "ref:se:scb": "1724",
+        "website": "https://vetlanda.se/",
+        "wikidata": "Q611013",
+        "wikipedia": "sv:Vetlanda"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26592946,
+      "lat": 57.6530377,
+      "lon": 14.6981554,
+      "tags": {
+        "importance": "national",
+        "name": "Nässjö",
+        "name:ru": "Несшё",
+        "name:sv": "Nässjö",
+        "place": "town",
+        "population": "16678",
+        "ref:se:pts:postort": "NÄSSJÖ",
+        "ref:se:scb": "1608",
+        "wikidata": "Q654299",
+        "wikipedia": "sv:Nässjö"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26594373,
+      "lat": 57.7594186,
+      "lon": 16.6385035,
+      "tags": {
+        "name": "Västervik",
+        "name:lt": "Vestervikas",
+        "name:ru": "Вестервик",
+        "name:sv": "Västervik",
+        "place": "town",
+        "population": "21178",
+        "ref:se:pts:postort": "VÄSTERVIK",
+        "ref:se:scb": "2472",
+        "wikidata": "Q54764",
+        "wikipedia": "sv:Västervik"
+      }
+    },
+    {
+      "type": "node",
+      "id": 26794098,
+      "lat": 59.130171,
+      "lon": 15.1443464,
+      "tags": {
+        "name": "Kumla",
+        "name:lt": "Kumla",
+        "name:ru": "Кумла",
+        "name:sv": "Kumla",
+        "place": "town",
+        "population": "14062",
+        "ref:se:pts:postort": "KUMLA",
+        "ref:se:scb": "6020"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27150427,
+      "lat": 57.6379361,
+      "lon": 18.297982,
+      "tags": {
+        "name": "Visby",
+        "name:ar": "فيسبي",
+        "name:el": "Βίσμπυ",
+        "name:fa": "ویزبه",
+        "name:ja": "ヴィースビ",
+        "name:ko": "비스뷔",
+        "name:lt": "Visbis",
+        "name:lv": "Visbija",
+        "name:mk": "Висби",
+        "name:ne": "भिस्बी",
+        "name:ru": "Висбю",
+        "name:sr": "Висби",
+        "name:sv": "Visby",
+        "name:ur": "ویسپے",
+        "name:xmf": "ვისბიუ",
+        "name:zh": "維斯比",
+        "old_name": "Wisby",
+        "place": "town",
+        "population": "22593",
+        "ref:se:pts:postort": "VISBY",
+        "ref:se:scb": "2552",
+        "wikidata": "Q54757",
+        "wikipedia": "sv:Visby"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27323968,
+      "lat": 55.7029296,
+      "lon": 13.1929449,
+      "tags": {
+        "name": "Lund",
+        "name:da": "Lund",
+        "name:ja": "ルンド",
+        "name:ko": "룬드",
+        "name:nn": "Lund",
+        "name:no": "Lund",
+        "name:ru": "Лунд",
+        "name:sv": "Lund",
+        "name:yue": "隆德",
+        "name:zh": "隆德",
+        "place": "town",
+        "population": "82800",
+        "ref:se:pts:postort": "LUND",
+        "ref:se:scb": "3584",
+        "wikidata": "Q2167"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27374565,
+      "lat": 55.4329849,
+      "lon": 13.8196555,
+      "tags": {
+        "name": "Ystad",
+        "name:ru": "Истад",
+        "name:sv": "Ystad",
+        "place": "town",
+        "population": "18350",
+        "ref:se:pts:postort": "YSTAD",
+        "ref:se:scb": "3808",
+        "wikidata": "Q28287",
+        "wikipedia": "sv:Ystad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27377535,
+      "lat": 56.0293778,
+      "lon": 14.1566859,
+      "tags": {
+        "name": "Kristianstad",
+        "name:lt": "Kristianstadas",
+        "name:ru": "Кристианстад",
+        "name:sv": "Kristianstad",
+        "place": "town",
+        "population": "35711",
+        "ref:se:pts:postort": "KRISTIANSTAD",
+        "ref:se:scb": "2980",
+        "wikidata": "Q26937",
+        "wikipedia": "sv:Kristianstad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27395889,
+      "lat": 56.1701723,
+      "lon": 14.8631279,
+      "tags": {
+        "loc_name": "Carlshamn",
+        "name": "Karlshamn",
+        "name:ru": "Карлсхамн",
+        "name:sv": "Karlshamn",
+        "place": "town",
+        "population": "19075",
+        "ref:se:pts:postort": "KARLSHAMN",
+        "ref:se:scb": "2676",
+        "wikidata": "Q54769",
+        "wikipedia": "sv:Karlshamn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27396028,
+      "lat": 56.2100417,
+      "lon": 15.2760355,
+      "tags": {
+        "name": "Ronneby",
+        "name:lt": "Ronebis",
+        "name:ru": "Роннебю",
+        "name:sv": "Ronneby",
+        "place": "town",
+        "population": "11767",
+        "ref:se:pts:postort": "RONNEBY",
+        "ref:se:scb": "2732",
+        "website": "https://www.ronneby.se/",
+        "wikidata": "Q823785",
+        "wikipedia": "sv:Ronneby"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27405018,
+      "lat": 56.7452259,
+      "lon": 15.9061542,
+      "tags": {
+        "name": "Nybro",
+        "name:lt": "Nibru",
+        "name:ru": "Нюбру",
+        "name:sv": "Nybro",
+        "place": "town",
+        "population": "12810",
+        "ref:se:pts:postort": "NYBRO",
+        "ref:se:scb": "2352",
+        "wikidata": "Q930238",
+        "wikipedia": "sv:Nybro"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27426448,
+      "lat": 58.5037196,
+      "lon": 13.1576427,
+      "tags": {
+        "alt_name": "Lidköping vid Vänern",
+        "layer": "5",
+        "name": "Lidköping",
+        "name:ru": "Лидчёпинг",
+        "place": "town",
+        "population": "25644",
+        "ref:se:pts:postort": "LIDKÖPING",
+        "ref:se:scb": "5352",
+        "wikidata": "Q29988"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27430678,
+      "lat": 58.7093225,
+      "lon": 13.8228754,
+      "tags": {
+        "name": "Mariestad",
+        "name:ru": "Мариестад",
+        "name:sv": "Mariestad",
+        "place": "town",
+        "population": "16249",
+        "ref:se:pts:postort": "MARIESTAD",
+        "ref:se:scb": "5372",
+        "wikidata": "Q948117",
+        "wikipedia": "sv:Mariestad"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27431648,
+      "lat": 58.5909124,
+      "lon": 16.1903511,
+      "tags": {
+        "name": "Norrköping",
+        "name:he": "נורשפינג",
+        "name:hu": "Norrköping",
+        "name:la": "Norcopia",
+        "name:ru": "Норрчёпинг",
+        "name:sv": "Norrköping",
+        "name:yi": "נארשעפינג",
+        "name:zh": "诺尔雪平",
+        "place": "town",
+        "population": "87247",
+        "ref:se:pts:postort": "NORRKÖPING",
+        "ref:se:scb": "1192",
+        "wikidata": "Q25724",
+        "wikipedia": "sv:Norrköping"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27439001,
+      "lat": 55.37592,
+      "lon": 13.1461522,
+      "tags": {
+        "name": "Trelleborg",
+        "name:lt": "Treleborgas",
+        "name:ru": "Треллеборг",
+        "place": "town",
+        "population": "28290",
+        "ref:se:pts:postort": "TRELLEBORG",
+        "ref:se:scb": "3752",
+        "wikidata": "Q26943",
+        "wikipedia": "sv:Trelleborg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27532837,
+      "lat": 58.9960335,
+      "lon": 16.2067589,
+      "tags": {
+        "name": "Katrineholm",
+        "name:lt": "Katrineholmas",
+        "name:ru": "Катринехольм",
+        "name:sv": "Katrineholm",
+        "place": "town",
+        "population": "20000",
+        "ref:se:pts:postort": "KATRINEHOLM",
+        "ref:se:scb": "0784",
+        "wikidata": "Q54758"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27544566,
+      "lat": 59.6356115,
+      "lon": 17.077856,
+      "tags": {
+        "name": "Enköping",
+        "name:sv": "Enköping",
+        "place": "town",
+        "population": "21121",
+        "ref:se:pts:postort": "ENKÖPING",
+        "ref:se:scb": "0532",
+        "website": "https://enkoping.se/",
+        "wikidata": "Q21167",
+        "wikipedia": "sv:Enköping"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27557254,
+      "lat": 61.7281607,
+      "lon": 17.105575,
+      "tags": {
+        "name": "Hudiksvall",
+        "name:ru": "Худиксваль",
+        "name:sv": "Hudiksvall",
+        "place": "town",
+        "population": "15015",
+        "ref:se:pts:postort": "HUDIKSVALL",
+        "ref:se:scb": "7120",
+        "website": "https://www.hudiksvall.se/",
+        "wikidata": "Q642964",
+        "wikipedia": "sv:Hudiksvall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27557890,
+      "lat": 61.3513005,
+      "lon": 16.3972013,
+      "tags": {
+        "name": "Bollnäs",
+        "name:ru": "Болльнес",
+        "name:sv": "Bollnäs",
+        "place": "town",
+        "population": "12455",
+        "ref:se:pts:postort": "BOLLNÄS",
+        "ref:se:scb": "7036"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27558251,
+      "lat": 61.2998501,
+      "lon": 17.0607599,
+      "tags": {
+        "name": "Söderhamn",
+        "name:ru": "Сёдерхамн",
+        "name:sv": "Söderhamn",
+        "place": "town",
+        "population": "12056",
+        "ref:se:pts:postort": "SÖDERHAMN",
+        "ref:se:scb": "7316",
+        "wikidata": "Q746839",
+        "wikipedia": "sv:Söderhamn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27558580,
+      "lat": 60.619422,
+      "lon": 16.7724214,
+      "tags": {
+        "loc_name": "Dödens boning",
+        "name": "Sandviken",
+        "name:he": "סאנדוויקן",
+        "name:ru": "Сандвикен",
+        "name:sv": "Sandviken",
+        "place": "town",
+        "population": "22965",
+        "ref:se:pts:postort": "SANDVIKEN",
+        "ref:se:scb": "7272",
+        "wikidata": "Q54756",
+        "wikipedia": "en:Sandviken"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27560697,
+      "lat": 62.6323084,
+      "lon": 17.9379914,
+      "tags": {
+        "name": "Härnösand",
+        "name:lt": "Herniosandas",
+        "name:ru": "Хернёсанд",
+        "name:sv": "Härnösand",
+        "place": "town",
+        "population": "24689",
+        "ref:se:pts:postort": "HÄRNÖSAND",
+        "ref:se:scb": "7500",
+        "wikidata": "Q3240427",
+        "wikipedia": "sv:Härnösand"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27699239,
+      "lat": 55.8698007,
+      "lon": 12.8296734,
+      "tags": {
+        "name": "Landskrona",
+        "name:ru": "Ландскруна",
+        "place": "town",
+        "population": "30499",
+        "ref:se:pts:postort": "LANDSKRONA",
+        "ref:se:scb": "3560",
+        "wikidata": "Q54352",
+        "wikipedia": "sv:Landskrona"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27699240,
+      "lat": 55.6745348,
+      "lon": 13.0708928,
+      "tags": {
+        "name": "Lomma",
+        "name:ru": "Ломма",
+        "place": "town",
+        "population": "10837",
+        "ref:se:pts:postort": "LOMMA",
+        "ref:se:scb": "3576",
+        "wikidata": "Q995369",
+        "wikipedia": "sv:Lomma"
+      }
+    },
+    {
+      "type": "node",
+      "id": 27699411,
+      "lat": 56.2429224,
+      "lon": 12.8619375,
+      "tags": {
+        "name": "Ängelholm",
+        "name:ru": "Энгельхольм",
+        "place": "town",
+        "population": "22532",
+        "ref:se:pts:postort": "ÄNGELHOLM",
+        "ref:se:scb": "3196",
+        "wikidata": "Q54755",
+        "wikipedia": "sv:Ängelholm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28256477,
+      "lat": 57.9299658,
+      "lon": 12.5329678,
+      "tags": {
+        "int_name": "Alingsas",
+        "name": "Alingsås",
+        "name:ru": "Алингсос",
+        "place": "town",
+        "population": "24482",
+        "ref:se:pts:postort": "ALINGSÅS",
+        "ref:se:scb": "4700",
+        "wikidata": "Q54743"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28350059,
+      "lat": 57.5080076,
+      "lon": 12.6970568,
+      "tags": {
+        "name": "Kinna",
+        "name:ru": "Чинна",
+        "place": "town",
+        "population": "14776",
+        "ref:se:pts:postort": "KINNA",
+        "ref:se:scb": "4912",
+        "wikidata": "Q667818",
+        "wikipedia": "sv:Kinna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28362755,
+      "lat": 57.2632811,
+      "lon": 16.4443478,
+      "tags": {
+        "name": "Oskarshamn",
+        "name:lt": "Oskaršhamnas",
+        "name:ru": "Оскарсхамн",
+        "name:sv": "Oskarshamn",
+        "place": "town",
+        "population": "17258",
+        "ref:se:pts:postort": "OSKARSHAMN",
+        "ref:se:scb": "2360",
+        "wikidata": "Q654268",
+        "wikipedia": "sv:Oskarshamn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28797960,
+      "lat": 59.7591735,
+      "lon": 18.7037476,
+      "tags": {
+        "name": "Norrtälje",
+        "name:ru": "Норртелье",
+        "name:sv": "Norrtälje",
+        "place": "town",
+        "population": "19365",
+        "population:date": "2009-12-31",
+        "ref:se:pts:postort": "NORRTÄLJE",
+        "ref:se:scb": "0252",
+        "source": "SCB 2015",
+        "wikidata": "Q3588743",
+        "wikipedia": "sv:Norrtälje"
+      }
+    },
+    {
+      "type": "node",
+      "id": 28899227,
+      "lat": 60.1469553,
+      "lon": 16.1826996,
+      "tags": {
+        "is_in": "Avesta kommun, Dalarna, Dalarnas län, Sweden",
+        "name": "Avesta",
+        "name:ru": "Авеста",
+        "name:sv": "Avesta",
+        "old_name": "Aewestad",
+        "place": "town",
+        "population": "11949",
+        "ref:se:pts:postort": "AVESTA",
+        "ref:se:scb": "6404",
+        "wikidata": "Q83682",
+        "wikipedia": "sv:Avesta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29266387,
+      "lat": 65.8275004,
+      "lon": 21.6964105,
+      "tags": {
+        "is_in": "Norrbottens län, Sweden",
+        "name": "Boden",
+        "name:ru": "Буден",
+        "place": "town",
+        "population": "18680",
+        "ref:se:pts:postort": "BODEN",
+        "ref:se:scb": "8544",
+        "wikidata": "Q586179"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29684311,
+      "lat": 58.3254361,
+      "lon": 15.131448,
+      "tags": {
+        "name": "Mjölby",
+        "name:ru": "Мьёльбю",
+        "name:sv": "Mjölby",
+        "place": "town",
+        "population": "12245",
+        "ref:se:pts:postort": "MJÖLBY",
+        "ref:se:scb": "1180"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29691384,
+      "lat": 57.8707862,
+      "lon": 11.9788622,
+      "tags": {
+        "name": "Kungälv",
+        "name:ru": "Кунгэльв",
+        "place": "town",
+        "population": "21139",
+        "ref:se:pts:postort": "Kungälv",
+        "ref:se:scb": "4452",
+        "wikidata": "Q27455",
+        "wikipedia": "sv:Kungälv"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29756716,
+      "lat": 59.3643845,
+      "lon": 18.133142,
+      "tags": {
+        "gns_classification": "PPL",
+        "gns_populated_place_classification": "3",
+        "gns_uni": "-3437720",
+        "name": "Lidingö",
+        "name:ru": "Лидингё",
+        "name:sv": "Lidingö",
+        "place": "town",
+        "population": "31561",
+        "population:date": "2009-12-31",
+        "ref:se:pts:postort": "LIDINGÖ",
+        "ref:se:scb": "0228",
+        "website": "https://www.lidingo.se/",
+        "wikidata": "Q54349",
+        "wikipedia": "en:Lidingö"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29814285,
+      "lat": 59.6543555,
+      "lon": 12.5916225,
+      "tags": {
+        "name": "Arvika",
+        "name:ru": "Арвика",
+        "place": "town",
+        "population": "14052",
+        "population:date": "2018-03-28",
+        "population:source": "SCB",
+        "ref:se:pts:postort": "ARVIKA",
+        "ref:se:scb": "5604",
+        "website": "https://www.arvika.se/",
+        "wikidata": "Q654308",
+        "wikipedia": "sv:Arvika"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29915594,
+      "lat": 60.0038627,
+      "lon": 15.7906054,
+      "tags": {
+        "is_in": "Fagersta kommun, Västmanland, Västmanlands län, Sweden",
+        "name": "Fagersta",
+        "name:ru": "Фагерста",
+        "name:sv": "Fagersta",
+        "place": "town",
+        "population": "11130",
+        "ref:se:pts:postort": "FAGERSTA",
+        "ref:se:scb": "6212",
+        "wikidata": "Q985617",
+        "wikipedia": "sv:Fagersta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29916407,
+      "lat": 59.9202268,
+      "lon": 16.6056444,
+      "tags": {
+        "description": "Silverstaden",
+        "name": "Sala",
+        "name:ru": "Сала",
+        "name:sv": "Sala",
+        "place": "town",
+        "population": "12289",
+        "ref:se:pts:postort": "SALA",
+        "ref:se:scb": "6312",
+        "wikidata": "Q930262",
+        "wikipedia": "sv:Sala"
+      }
+    },
+    {
+      "type": "node",
+      "id": 29917204,
+      "lat": 59.6252383,
+      "lon": 17.8515672,
+      "tags": {
+        "name": "Märsta",
+        "name:ru": "Мерста",
+        "name:sv": "Märsta",
+        "place": "town",
+        "population": "24068",
+        "ref:se:pts:postort": "MÄRSTA",
+        "ref:se:scb": "0240",
+        "wikidata": "Q54748",
+        "wikipedia": "en:Märsta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30097620,
+      "lat": 59.43674,
+      "lon": 18.05614,
+      "tags": {
+        "name": "Täby",
+        "name:he": "טבי",
+        "name:sv": "Täby",
+        "place": "town",
+        "population": "61272",
+        "ref:se:pts:postort": "TÄBY",
+        "ref:se:scb": "0288",
+        "wikidata": "Q54337"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30097996,
+      "lat": 59.1964289,
+      "lon": 17.6271663,
+      "tags": {
+        "capital": "municipality",
+        "name": "Södertälje",
+        "name:la": "Telga australis",
+        "name:lt": "Sioderteljė",
+        "name:ru": "Сёдертелье",
+        "name:sv": "Södertälje",
+        "old_name": "Telje",
+        "place": "town",
+        "population": "64619",
+        "ref:se:pts:postort": "SÖDERTÄLJE",
+        "ref:se:scb": "0356",
+        "wikidata": "Q26518",
+        "wikipedia": "en:Södertälje"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30146159,
+      "lat": 57.1832783,
+      "lon": 14.0483437,
+      "tags": {
+        "name": "Värnamo",
+        "name:ru": "Вернаму",
+        "name:sv": "Värnamo",
+        "place": "town",
+        "population": "19817",
+        "population:date": "2018-12-31",
+        "ref:se:pts:postort": "VÄRNAMO",
+        "ref:se:scb": "1732",
+        "source:population": "Värnamo Kommun",
+        "wikidata": "Q54771",
+        "wikipedia": "sv:Värnamo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30146374,
+      "lat": 57.4888563,
+      "lon": 12.0787529,
+      "tags": {
+        "name": "Kungsbacka",
+        "name:ru": "Кунгсбакка",
+        "place": "town",
+        "population": "18600",
+        "ref:se:pts:postort": "KUNGSBACKA",
+        "ref:se:scb": "4008",
+        "wikidata": "Q28374",
+        "wikipedia": "sv:Kungsbacka"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30146989,
+      "lat": 57.5791257,
+      "lon": 12.0876599,
+      "tags": {
+        "name": "Lindome",
+        "name:ru": "Линдуме",
+        "place": "town",
+        "population": "11037",
+        "ref:se:pts:postort": "LINDOME",
+        "ref:se:scb": "4488",
+        "wikidata": "Q1796281",
+        "wikipedia": "sv:Lindome"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30146990,
+      "lat": 57.6564918,
+      "lon": 12.0153085,
+      "tags": {
+        "name": "Mölndal",
+        "name:lt": "Miolndalas",
+        "name:ru": "Мёльндаль",
+        "place": "town",
+        "population": "60000",
+        "ref:se:pts:postort": "MÖLNDAL",
+        "wikidata": "Q27437",
+        "wikipedia": "sv:Mölndal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30147521,
+      "lat": 57.1057412,
+      "lon": 12.2502949,
+      "tags": {
+        "name": "Varberg",
+        "name:he": "ורברג",
+        "name:ru": "Варберг",
+        "place": "town",
+        "population": "27602",
+        "ref:se:pts:postort": "VARBERG",
+        "ref:se:scb": "4156",
+        "wikidata": "Q21168",
+        "wikipedia": "sv:Varberg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30147825,
+      "lat": 56.904894,
+      "lon": 12.4912926,
+      "tags": {
+        "name": "Falkenberg",
+        "name:ru": "Фалькенберг",
+        "place": "town",
+        "population": "20035",
+        "ref:se:pts:postort": "FALKENBERG",
+        "ref:se:scb": "3920",
+        "wikidata": "Q4165241"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30577975,
+      "lat": 57.7701659,
+      "lon": 12.2695051,
+      "tags": {
+        "name": "Lerum",
+        "name:ru": "Лерум",
+        "place": "town",
+        "population": "16855",
+        "ref:se:pts:postort": "LERUM",
+        "ref:se:scb": "4920",
+        "wikidata": "Q988275",
+        "wikipedia": "sv:Lerum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 30578919,
+      "lat": 57.6583613,
+      "lon": 12.1135762,
+      "tags": {
+        "name": "Mölnlycke",
+        "name:lt": "Miolnliukė",
+        "name:ru": "Мёльнлюкке",
+        "name:uk": "Мьолнліке",
+        "place": "town",
+        "population": "17728",
+        "population:date": "2016",
+        "ref:se:pts:postort": "MÖLNLYCKE",
+        "ref:se:scb": "4520",
+        "source:population": "SCB",
+        "wikidata": "Q25462",
+        "wikipedia": "sv:Mölnlycke"
+      }
+    },
+    {
+      "type": "node",
+      "id": 31014648,
+      "lat": 59.4204736,
+      "lon": 17.8285472,
+      "tags": {
+        "name": "Järfälla",
+        "name:sv": "Järfälla",
+        "place": "town",
+        "population": "65295",
+        "population:date": "2009-12-31",
+        "ref:se:pts:postort": "JÄRFÄLLA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 31066580,
+      "lat": 59.4293164,
+      "lon": 17.9500556,
+      "tags": {
+        "name": "Sollentuna",
+        "name:ru": "Соллентуна",
+        "name:sv": "Sollentuna",
+        "place": "town",
+        "population": "73660",
+        "population:date": "2019-09-30",
+        "ref:se:pts:postort": "SOLLENTUNA",
+        "wikidata": "Q503746",
+        "wikipedia": "ru:Соллентуна"
+      }
+    },
+    {
+      "type": "node",
+      "id": 31110308,
+      "lat": 59.4043647,
+      "lon": 18.0358505,
+      "tags": {
+        "name": "Danderyd",
+        "name:sv": "Danderyd",
+        "note": "This is not really a town but a municipality/kommun",
+        "place": "town",
+        "population": "31150",
+        "population:date": "2009-12-31",
+        "ref:se:pts:postort": "DANDERYD"
+      }
+    },
+    {
+      "type": "node",
+      "id": 32657698,
+      "lat": 58.6700167,
+      "lon": 17.1040821,
+      "tags": {
+        "name": "Oxelösund",
+        "name:ru": "Окселёсунд",
+        "name:sv": "Oxelösund",
+        "place": "town",
+        "population": "10870",
+        "ref:se:pts:postort": "OXELÖSUND",
+        "ref:se:scb": "0820"
+      }
+    },
+    {
+      "type": "node",
+      "id": 34002096,
+      "lat": 67.8550724,
+      "lon": 20.2255482,
+      "tags": {
+        "ele": "530",
+        "name": "Kiruna",
+        "name:en": "Kiruna",
+        "name:fi": "Kiiruna",
+        "name:he": "קירונה",
+        "name:lt": "Kiruna",
+        "name:ru": "Кируна",
+        "name:se": "Giron",
+        "name:sv": "Kiruna",
+        "name:uk": "Кіруна",
+        "place": "town",
+        "population": "23001",
+        "ref:se:pts:postort": "KIRUNA",
+        "ref:se:scb": "8676",
+        "wikidata": "Q83232",
+        "wikipedia": "en:Kiruna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 35729508,
+      "lat": 59.2005555,
+      "lon": 17.8343123,
+      "tags": {
+        "name": "Tumba",
+        "name:ru": "Тумба",
+        "name:sv": "Tumba",
+        "place": "town",
+        "population": "42344",
+        "population:date": "2018-12-31",
+        "ref:se:pts:postort": "TUMBA",
+        "ref:se:scb": "0372",
+        "source": "local knowledge",
+        "wikidata": "Q83715",
+        "wikipedia": "sv:Tumba"
+      }
+    },
+    {
+      "type": "node",
+      "id": 38461549,
+      "lat": 67.135243,
+      "lon": 20.6604843,
+      "tags": {
+        "name": "Gällivare",
+        "name:fi": "Jällivaara",
+        "name:fit": "Jellivaara",
+        "name:ru": "Елливаре",
+        "name:se": "Jiellevárri",
+        "name:smj": "Jiellevárre",
+        "name:sv": "Gällivare",
+        "place": "town",
+        "population": "18570",
+        "ref:se:pts:postort": "GÄLLIVARE",
+        "ref:se:scb": "8596",
+        "wikidata": "Q259046",
+        "wikipedia": "sv:Gällivare"
+      }
+    },
+    {
+      "type": "node",
+      "id": 38510292,
+      "lat": 59.5332247,
+      "lon": 18.0764505,
+      "tags": {
+        "name": "Vallentuna",
+        "name:sv": "Vallentuna",
+        "place": "town",
+        "population": "31937",
+        "ref:se:pts:postort": "VALLENTUNA",
+        "ref:se:scb": "0388",
+        "wikidata": "Q54358",
+        "wikipedia": "sv:Vallentuna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 46686456,
+      "lat": 59.4823516,
+      "lon": 18.2943981,
+      "tags": {
+        "name": "Åkersberga",
+        "name:ru": "Окерсберга",
+        "name:sv": "Åkersberga",
+        "place": "town",
+        "population": "28033",
+        "ref:se:pts:postort": "ÅKERSBERGA",
+        "ref:se:scb": "0408",
+        "wikidata": "Q54728"
+      }
+    },
+    {
+      "type": "node",
+      "id": 46792661,
+      "lat": 57.3019768,
+      "lon": 13.5392235,
+      "tags": {
+        "name": "Gislaved",
+        "name:ru": "Йиславед",
+        "name:sv": "Gislaved",
+        "place": "town",
+        "population": "10037",
+        "ref:se:pts:postort": "GISLAVED",
+        "ref:se:scb": "1484"
+      }
+    },
+    {
+      "type": "node",
+      "id": 49871511,
+      "lat": 59.394187,
+      "lon": 15.8396643,
+      "tags": {
+        "name": "Arboga",
+        "name:ru": "Арбуга",
+        "name:sv": "Arboga",
+        "place": "town",
+        "population": "10330",
+        "ref:se:pts:postort": "ARBOGA",
+        "ref:se:scb": "6200",
+        "wikidata": "Q669660",
+        "wikipedia": "sv:Arboga"
+      }
+    },
+    {
+      "type": "node",
+      "id": 53403734,
+      "lat": 55.6427393,
+      "lon": 13.2113993,
+      "tags": {
+        "name": "Staffanstorp",
+        "name:sv": "Staffanstorp",
+        "place": "town",
+        "population": "14808",
+        "ref:se:pts:postort": "STAFFANSTORP",
+        "ref:se:scb": "3696",
+        "wikidata": "Q1003201",
+        "wikipedia": "sv:Staffanstorp"
+      }
+    },
+    {
+      "type": "node",
+      "id": 54519667,
+      "lat": 59.361367,
+      "lon": 18.0013693,
+      "tags": {
+        "name": "Solna",
+        "name:sv": "Solna",
+        "place": "town",
+        "population": "74790",
+        "population:date": "2009-12-31",
+        "ref:se:pts:postort": "SOLNA",
+        "wikidata": "Q28476747",
+        "wikipedia": "sv:Solna (bebyggelse)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 54522077,
+      "lat": 59.3628802,
+      "lon": 17.9681359,
+      "tags": {
+        "name": "Sundbyberg",
+        "name:sv": "Sundbyberg",
+        "place": "town",
+        "population": "39224",
+        "ref:se:pts:postort": "SUNDBYBERG",
+        "wikidata": "Q972564",
+        "wikipedia": "sv:Sundbybergs kommun"
+      }
+    },
+    {
+      "type": "node",
+      "id": 55079611,
+      "lat": 55.6378013,
+      "lon": 13.0777501,
+      "tags": {
+        "name": "Arlöv",
+        "place": "town",
+        "population": "10201",
+        "population:note": "folkmängden avser delen av malmö tätort som ligger i burlövs kommun, då arlöv inte är någon egen tätort",
+        "ref:se:pts:postort": "ARLÖV",
+        "wikidata": "Q676026",
+        "wikipedia": "sv:Arlöv"
+      }
+    },
+    {
+      "type": "node",
+      "id": 56449803,
+      "lat": 59.517164,
+      "lon": 17.9164192,
+      "tags": {
+        "name": "Upplands Väsby",
+        "name:sv": "Upplands Väsby",
+        "place": "town",
+        "population": "41816",
+        "ref:se:pts:postort": "UPPLANDS VÄSBY",
+        "ref:se:scb": "0384",
+        "wikidata": "Q54343",
+        "wikipedia": "sv:Upplands Väsby"
+      }
+    },
+    {
+      "type": "node",
+      "id": 56520072,
+      "lat": 59.2904595,
+      "lon": 17.813072,
+      "tags": {
+        "name": "Ekerö",
+        "name:sv": "Ekerö",
+        "place": "town",
+        "population": "10907",
+        "population:date": "2010-12-31",
+        "ref:se:pts:postort": "EKERÖ",
+        "ref:se:scb": "0150"
+      }
+    },
+    {
+      "type": "node",
+      "id": 59773306,
+      "lat": 59.3763155,
+      "lon": 17.0268194,
+      "tags": {
+        "capital": "municipality",
+        "name": "Strängnäs",
+        "name:lt": "Strengnesas",
+        "name:ru": "Стренгнес",
+        "name:sv": "Strängnäs",
+        "place": "town",
+        "population": "12856",
+        "ref:se:pts:postort": "STRÄNGNÄS",
+        "ref:se:scb": "0868",
+        "wikidata": "Q106909"
+      }
+    },
+    {
+      "type": "node",
+      "id": 60141422,
+      "lat": 59.3241856,
+      "lon": 13.4705229,
+      "tags": {
+        "name": "Skoghall",
+        "name:lt": "Skoghalis",
+        "name:ru": "Скугхалль",
+        "name:sv": "Skoghall",
+        "place": "town",
+        "population": "14447",
+        "population:date": "2018-03-28",
+        "population:source": "SCB",
+        "ref:se:pts:postort": "SKOGHALL",
+        "ref:se:scb": "5804",
+        "wikidata": "Q576644",
+        "wikipedia": "sv:Skoghall"
+      }
+    },
+    {
+      "type": "node",
+      "id": 61102737,
+      "lat": 62.4893197,
+      "lon": 17.3273736,
+      "tags": {
+        "date": "2010-12-31",
+        "is_in": "Timrå kommun, Medelpad, Västernorrlands län, Sweden",
+        "name": "Timrå",
+        "name:ru": "Тимро",
+        "name:sv": "Timrå",
+        "place": "town",
+        "population": "10443",
+        "ref:se:pts:postort": "TIMRÅ",
+        "ref:se:scb": "7704"
+      }
+    },
+    {
+      "type": "node",
+      "id": 68707953,
+      "lat": 55.5152421,
+      "lon": 13.2384358,
+      "tags": {
+        "name": "Svedala",
+        "name:ru": "Сведала",
+        "name:sv": "Svedala",
+        "place": "town",
+        "population": "10627",
+        "ref:se:pts:postort": "SVEDALA",
+        "ref:se:scb": "3724",
+        "wikidata": "Q369863",
+        "wikipedia": "sv:Svedala"
+      }
+    },
+    {
+      "type": "node",
+      "id": 71565648,
+      "lat": 59.5137434,
+      "lon": 15.9970475,
+      "tags": {
+        "is_in": "Köpings kommun, Västmanland, Västmanlands län, Sweden",
+        "name": "Köping",
+        "name:ru": "Чёпинг",
+        "name:sv": "Köping",
+        "place": "town",
+        "population": "17743",
+        "ref:se:pts:postort": "KÖPING",
+        "ref:se:scb": "6268",
+        "wikidata": "Q174126"
+      }
+    },
+    {
+      "type": "node",
+      "id": 80268995,
+      "lat": 58.9056457,
+      "lon": 17.9470987,
+      "tags": {
+        "name": "Nynäshamn",
+        "name:bg": "Нюнесхамн",
+        "name:da": "Nynäshamn",
+        "name:de": "Nynäshamn",
+        "name:en": "Nynäshamn",
+        "name:et": "Nynäshamn",
+        "name:fo": "Nynäshamn",
+        "name:hu": "Nynäshamn",
+        "name:it": "Nynäshamn",
+        "name:nl": "Nynäshamn",
+        "name:nn": "Nynäshamn",
+        "name:no": "Nynäshamn",
+        "name:pl": "Nynäshamn",
+        "name:pt": "Nynäshamn",
+        "name:ru": "Нюнесхамн",
+        "name:se": "Nynäshamn",
+        "name:sv": "Nynäshamn",
+        "name:uk": "Нинесгамн",
+        "name:vi": "Nynäshamn",
+        "name:zh": "尼奈斯港",
+        "place": "town",
+        "population": "13510",
+        "population:date": "2010-12-31",
+        "ref:se:pts:postort": "NYNÄSHAMN",
+        "ref:se:scb": "0264",
+        "website": "https://www.nynashamn.se/",
+        "wikidata": "Q738338",
+        "wikipedia": "sv:Nynäshamn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 112032928,
+      "lat": 59.5682102,
+      "lon": 17.5293647,
+      "tags": {
+        "name": "Bålsta",
+        "name:sv": "Bålsta",
+        "place": "town",
+        "population": "13138",
+        "ref:se:pts:postort": "BÅLSTA",
+        "ref:se:scb": "0520",
+        "source": "scb",
+        "wikidata": "Q661608",
+        "wikipedia": "sv:Bålsta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 122697276,
+      "lat": 55.8374959,
+      "lon": 13.3036265,
+      "tags": {
+        "name": "Eslöv",
+        "name:lt": "Esliovas",
+        "name:ru": "Эслёв",
+        "name:sv": "Eslöv",
+        "place": "town",
+        "population": "17748",
+        "ref:se:pts:postort": "ESLÖV",
+        "ref:se:scb": "3396",
+        "wikidata": "Q79237",
+        "wikipedia": "sv:Eslöv"
+      }
+    },
+    {
+      "type": "node",
+      "id": 122713274,
+      "lat": 56.157986,
+      "lon": 13.7653328,
+      "tags": {
+        "name": "Hässleholm",
+        "name:lt": "Hesleholmas",
+        "name:ru": "Хеслехольм",
+        "name:sv": "Hässleholm",
+        "place": "town",
+        "population": "18500",
+        "ref:se:pts:postort": "HÄSSLEHOLM",
+        "ref:se:scb": "2936",
+        "wikidata": "Q847665",
+        "wikipedia": "sv:Hässleholm"
+      }
+    },
+    {
+      "type": "node",
+      "id": 124274960,
+      "lat": 60.3469718,
+      "lon": 15.7486886,
+      "tags": {
+        "description": "SötaSäter – en blomstrande liten stad",
+        "name": "Säter",
+        "name:ru": "Сетер",
+        "name:sv": "Säter",
+        "place": "town",
+        "population": "10925",
+        "ref:se:pts:postort": "SÄTER",
+        "ref:se:scb": "6792",
+        "website": "https://www.sater.se/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 124275433,
+      "lat": 60.2785997,
+      "lon": 15.9870293,
+      "tags": {
+        "name": "Hedemora",
+        "name:ru": "Хедемура",
+        "name:sv": "Hedemora",
+        "old_name": "Hedmora",
+        "place": "town",
+        "population": "15209",
+        "ref:se:pts:postort": "HEDEMORA",
+        "ref:se:scb": "6572",
+        "website": "http://www.hedemora.se",
+        "wikidata": "Q1001183",
+        "wikipedia": "sv:Hedemora"
+      }
+    },
+    {
+      "type": "node",
+      "id": 175828354,
+      "lat": 57.7406279,
+      "lon": 12.1100789,
+      "tags": {
+        "name": "Partille",
+        "place": "town",
+        "population": "29444",
+        "population:note": "folkmängden avser delen av göteborgs tätort som ligger i partille kommun, då partille inte är någon egen tätort",
+        "ref:se:pts:postort": "PARTILLE",
+        "wikidata": "Q2054961"
+      }
+    },
+    {
+      "type": "node",
+      "id": 191664752,
+      "lat": 57.7918701,
+      "lon": 14.2739261,
+      "tags": {
+        "name": "Huskvarna",
+        "name:ru": "Хускварна",
+        "name:sv": "Huskvarna",
+        "place": "town",
+        "population": "22800",
+        "population:note": "huskvarna är ingen egen tätort, folkmängd avser kommundel i jönköpings kommun",
+        "ref:se:pts:postort": "HUSKVARNA",
+        "wikidata": "Q263877"
+      }
+    },
+    {
+      "type": "node",
+      "id": 192240720,
+      "lat": 59.3205986,
+      "lon": 18.2613337,
+      "tags": {
+        "name": "Boo",
+        "name:sv": "Boo",
+        "place": "town",
+        "population": "24052",
+        "ref:se:scb": "0104",
+        "wikidata": "Q54752"
+      }
+    },
+    {
+      "type": "node",
+      "id": 192273562,
+      "lat": 59.6134488,
+      "lon": 16.2301613,
+      "tags": {
+        "name": "Hallstahammar",
+        "name:ru": "Хальстахаммар",
+        "name:sv": "Hallstahammar",
+        "place": "town",
+        "population": "10478",
+        "ref:se:pts:postort": "HALLSTAHAMMAR",
+        "ref:se:scb": "6224",
+        "wikidata": "Q1019560",
+        "wikipedia": "sv:Hallstahammar"
+      }
+    },
+    {
+      "type": "node",
+      "id": 192284376,
+      "lat": 58.70773,
+      "lon": 15.7758645,
+      "tags": {
+        "name": "Finspång",
+        "name:ru": "Финспонг",
+        "name:sv": "Finspång",
+        "place": "town",
+        "population": "12807",
+        "ref:se:pts:postort": "FINSPÅNG",
+        "ref:se:scb": "1056",
+        "wikipedia": "sv:Finspång"
+      }
+    },
+    {
+      "type": "node",
+      "id": 192294046,
+      "lat": 57.7243742,
+      "lon": 11.7653423,
+      "tags": {
+        "name": "Torslanda",
+        "place": "town",
+        "population": "23414",
+        "population:date": "2016",
+        "ref:se:pts:postort": "TORSLANDA",
+        "ref:se:scb": "4302",
+        "source:population": "SCB"
+      }
+    },
+    {
+      "type": "node",
+      "id": 262554934,
+      "lat": 55.5461572,
+      "lon": 13.0967868,
+      "tags": {
+        "name": "Oxie",
+        "place": "town",
+        "population": "11493",
+        "ref:se:pts:postort": "OXIE",
+        "ref:se:scb": "3640",
+        "wikidata": "Q1995123",
+        "wikipedia": "sv:Oxie"
+      }
+    },
+    {
+      "type": "node",
+      "id": 276047511,
+      "lat": 59.3099477,
+      "lon": 18.1677049,
+      "tags": {
+        "name": "Nacka",
+        "name:sv": "Nacka",
+        "place": "town",
+        "population": "88085",
+        "population:date": "2009-12-31",
+        "ref:se:pts:postort": "NACKA",
+        "website": "https://www.nacka.se/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 304051622,
+      "lat": 59.1423991,
+      "lon": 18.1317918,
+      "tags": {
+        "name": "Jordbro",
+        "name:sv": "Jordbro",
+        "place": "town",
+        "population": "10291",
+        "ref:se:pts:postort": "JORDBRO",
+        "ref:se:scb": "0200",
+        "wikidata": "Q1703720"
+      }
+    },
+    {
+      "type": "node",
+      "id": 322329736,
+      "lat": 59.1676451,
+      "lon": 18.1409008,
+      "tags": {
+        "name": "Handen",
+        "name:ru": "Ханден",
+        "name:sv": "Handen",
+        "place": "town",
+        "population": "12233",
+        "population:date": "2009-12-31",
+        "ref:se:pts:postort": "HANDEN",
+        "wikidata": "Q1574991",
+        "wikipedia": "sv:Handen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 337846684,
+      "lat": 59.2390408,
+      "lon": 18.3073536,
+      "tags": {
+        "name": "Tyresö",
+        "name:sv": "Tyresö",
+        "place": "town",
+        "population": "39437",
+        "population:note": "folkmängden avser delen av stockholms tätort som ligger i tyresö kommun, då tyresö inte är någon egen tätort",
+        "ref:se:pts:postort": "TYRESÖ",
+        "wikidata": "Q21667397"
+      }
+    },
+    {
+      "type": "node",
+      "id": 410426765,
+      "lat": 58.5420395,
+      "lon": 15.041261,
+      "tags": {
+        "name": "Motala",
+        "name:he": "מוטלה",
+        "name:ru": "Мутала",
+        "name:sv": "Motala",
+        "place": "town",
+        "population": "29823",
+        "ref:se:pts:postort": "MOTALA",
+        "ref:se:scb": "1188",
+        "wikidata": "Q54357",
+        "wikipedia": "sv:Motala"
+      }
+    },
+    {
+      "type": "node",
+      "id": 442688099,
+      "lat": 59.2223899,
+      "lon": 17.9398948,
+      "tags": {
+        "name": "Flemingsberg",
+        "name:sv": "Flemingsberg",
+        "place": "town",
+        "population": "15558",
+        "source": "local knowledge",
+        "source:population": "https://www.huddinge.se/organisation-och-styrning/statistik-och-fakta/korta-fakta-om-huddinge/",
+        "wikidata": "Q4117115",
+        "wikipedia": "sv:Flemingsberg"
+      }
+    },
+    {
+      "type": "node",
+      "id": 560126199,
+      "lat": 64.7520185,
+      "lon": 20.959339,
+      "tags": {
+        "name": "Skellefteå",
+        "name:ru": "Шеллефтео",
+        "place": "town",
+        "population": "32775",
+        "ref:se:pts:postort": "SKELLEFTEÅ",
+        "ref:se:scb": "8312",
+        "website": "www.skelleftea.se",
+        "wikidata": "Q54344"
+      }
+    },
+    {
+      "type": "node",
+      "id": 751822208,
+      "lat": 65.3134764,
+      "lon": 21.4899394,
+      "tags": {
+        "name": "Piteå",
+        "name:fi": "Piitime",
+        "name:ru": "Питео",
+        "place": "town",
+        "population": "40838",
+        "ref:se:pts:postort": "PITEÅ",
+        "ref:se:scb": "8792",
+        "website": "https://www.pitea.se/",
+        "wikidata": "Q21169"
+      }
+    },
+    {
+      "type": "node",
+      "id": 762233330,
+      "lat": 57.4272188,
+      "lon": 12.0302702,
+      "tags": {
+        "name": "Onsala",
+        "place": "town",
+        "population": "13779",
+        "ref:se:pts:postort": "ONSALA",
+        "ref:se:scb": "4054"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1112077620,
+      "lat": 59.2532237,
+      "lon": 17.9850911,
+      "tags": {
+        "name": "Stuvsta-Snättringe",
+        "name:sv": "Stuvsta-Snättringe",
+        "place": "town",
+        "population": "15847",
+        "wikidata": "Q10682494",
+        "wikipedia": "sv:Stuvsta-Snättringe"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1395086026,
+      "lat": 58.1695083,
+      "lon": 13.5542412,
+      "tags": {
+        "name": "Falköping",
+        "name:bg": "Фалшьопинг",
+        "name:fa": "ویژه:پالایهٔ_خرابکاری",
+        "name:ja": "ファルシェーピング",
+        "name:la": "Falcopia",
+        "name:lt": "Falšiopingas",
+        "name:ru": "Фальчёпинг",
+        "name:sr": "Фалћепинг",
+        "name:sv": "Falköping",
+        "name:ur": "فالکوپینگ",
+        "name:zh": "法爾雪平",
+        "place": "town",
+        "population": "16350",
+        "ref:se:pts:postort": "FALKÖPING",
+        "ref:se:scb": "5236",
+        "wikidata": "Q21165"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1643360977,
+      "lat": 57.7210839,
+      "lon": 12.9407407,
+      "tags": {
+        "capital": "municipality",
+        "name": "Borås",
+        "name:he": "בורוס",
+        "name:lt": "Burosas",
+        "name:ru": "Бурос",
+        "place": "town",
+        "population": "66273",
+        "ref:se:pts:postort": "BORÅS",
+        "ref:se:scb": "4752",
+        "wikidata": "Q26040",
+        "wikipedia": "sv:Borås"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2022692055,
+      "lat": 59.2362466,
+      "lon": 17.9761219,
+      "tags": {
+        "name": "Sjödalen-Fullersta",
+        "name:sv": "Sjödalen-Fullersta",
+        "place": "town",
+        "population": "22304",
+        "wikidata": "Q10669406",
+        "wikipedia": "sv:Sjödalen-Fullersta"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2235001454,
+      "lat": 55.4137626,
+      "lon": 12.9632315,
+      "tags": {
+        "name": "Höllviken",
+        "place": "town",
+        "population": "10607",
+        "ref:se:pts:postort": "HÖLLVIKEN",
+        "ref:se:scb": "3496",
+        "wikidata": "Q1025480",
+        "wikipedia": "sv:Höllviken"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2236313278,
+      "lat": 59.2293827,
+      "lon": 17.9748815,
+      "tags": {
+        "name": "Huddinge",
+        "name:sv": "Huddinge",
+        "place": "town",
+        "population": "95234",
+        "population:note": "folkmängden avser delen av stockholms tätort som ligger i huddinge kommun, då huddinge inte är någon egen tätort",
+        "ref:se:pts:postort": "HUDDINGE",
+        "wikidata": "Q21667231",
+        "wikipedia": "sv:Huddinge kommun",
+        "wikipedia:en": "Huddinge Municipality#Huddinge"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4137298009,
+      "lat": 59.1221593,
+      "lon": 18.1085969,
+      "tags": {
+        "name": "Västerhaninge",
+        "name:sv": "Västerhaninge",
+        "place": "town",
+        "population": "15134",
+        "ref:se:pts:postort": "VÄSTERHANINGE",
+        "ref:se:scb": "0404",
+        "wikidata": "Q1544751"
+      }
+    }
+  ]
+}

@@ -24,9 +24,7 @@ class SearchTypeService {
     List<SearchType> searchTypes = [];
 
     for (var element in json) {
-      searchTypes.add(
-        SearchType.fromJson(element)
-      );
+      searchTypes.add(SearchType.fromJson(element));
     }
 
     return searchTypes;
@@ -36,17 +34,17 @@ class SearchTypeService {
 class SearchType {
   String singular;
   String plural;
+  int min;
+  int max;
   Map<String, String> tags;
 
-  SearchType({
-    this.singular,
-    this.plural,
-    this.tags
-  });
+  SearchType({this.singular, this.plural, this.tags, this.min, this.max});
 
   SearchType.fromJson(Map<dynamic, dynamic> json) {
     this.singular = json['name']['singular'];
     this.plural = json['name']['plural'];
+    this.min = json['min'];
+    this.max = json['max'];
 
     Map<String, String> tags = new Map();
 

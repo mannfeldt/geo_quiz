@@ -23,6 +23,7 @@ class _QuizState extends State<Quiz> {
   Location _currentLocation;
   List<Location> _entities = [];
   SearchType _currentType;
+  int _currentRadiusKm = 5;
   bool _answered = false;
 
   @override
@@ -60,6 +61,7 @@ class _QuizState extends State<Quiz> {
     _searchTypes = await SearchTypeService().getSearchTypes();
     _locations = await _geoService.getLocations();
 
+    _getNewRadius();
     _getNewLocation();
     _getNewSearchType();
   }
@@ -75,6 +77,7 @@ class _QuizState extends State<Quiz> {
 
   void _showNewQuestion() {
     setState(() {
+      _getNewRadius();
       _getNewLocation();
       _getNewSearchType();
       _entities = [];
@@ -85,8 +88,11 @@ class _QuizState extends State<Quiz> {
   Future _answerQuestion() async {
     _indicateLoading();
 
-    _entities = await GeoService(overpassApi: _overpassApi)
-        .getEntitiesInArea(center: _currentLocation, type: _currentType);
+    _entities = await GeoService(overpassApi: _overpassApi).getEntitiesInArea(
+      center: _currentLocation,
+      type: _currentType,
+      radiusInMetres: (_currentRadiusKm * 1000).toDouble(),
+    );
 
     Navigator.of(context).pop();
 
@@ -97,6 +103,10 @@ class _QuizState extends State<Quiz> {
 
   void _getNewSearchType() {
     _currentType = _searchTypes[Random().nextInt(_searchTypes.length)];
+  }
+
+  void _getNewRadius() {
+    _currentRadiusKm = (Random().nextInt(10) + 1);
   }
 
   void _indicateLoading() {
@@ -126,7 +136,8 @@ class _QuizState extends State<Quiz> {
     });
 
     _mapController.move(
-        new LatLng(_currentLocation.latitude, _currentLocation.longitude), 11);
+        new LatLng(_currentLocation.latitude, _currentLocation.longitude),
+        12.5 - (_currentRadiusKm / 3.6));
   }
 
   FlutterMap _getMap() {
@@ -137,7 +148,7 @@ class _QuizState extends State<Quiz> {
         center: _currentLocation != null
             ? new LatLng(_currentLocation.latitude, _currentLocation.longitude)
             : null,
-        zoom: 11,
+        zoom: 11, //olika zoom beroende på currentRadius?
       ),
       layers: [
         new TileLayerOptions(
@@ -177,15 +188,18 @@ class _QuizState extends State<Quiz> {
 
     return [
       new Marker(
-        width: 230.0,
-        height: 230.0,
+        width:
+            250.0, // denna måste räknas om utifrån _currentRadius olika beronde på zoom också antar jag
+        //nej ha fast width/height här. men anpassa zoom till currentRadius
+        height: 250.0,
         point:
             new LatLng(_currentLocation.latitude, _currentLocation.longitude),
         builder: (ctx) => new Container(
           decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Colors.blue.withOpacity(0.1),
-              border: Border.all(color: Colors.blueAccent)),
+            shape: BoxShape.circle,
+            color: Colors.blue.withOpacity(0.1),
+            border: Border.all(color: Colors.blueAccent),
+          ),
         ),
       )
     ];
@@ -218,7 +232,7 @@ class _QuizState extends State<Quiz> {
     }
 
     if (_answered == false) {
-      return "How many ${_currentType.plural} are there 5 km around ${_currentLocation.name}?";
+      return "How many ${_currentType.plural} are there $_currentRadiusKm km around ${_currentLocation.name}?";
     }
 
     return "${_entities.length.toString()} ${_currentType.plural}\naround ${_currentLocation.name}";

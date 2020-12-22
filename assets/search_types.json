@@ -2,62 +2,6 @@
   "elements": [
     {
       "name": {
-        "singular": "bar",
-        "plural": "bars"
-      },
-      "tags": {
-        "amenity": "bar"
-      }
-    },
-    {
-      "name": {
-        "singular": "pub",
-        "plural": "pubs"
-      },
-      "tags": {
-        "amenity": "pub"
-      }
-    },
-    {
-      "name": {
-        "singular": "McDonald's",
-        "plural": "McDonald's"
-      },
-      "tags": {
-        "brand": "McDonald's",
-        "amenity": "fast_food",
-        "cuisine": "burger"
-      }
-    },
-    {
-      "name": {
-        "singular": "street lamp",
-        "plural": "street lamps"
-      },
-      "tags": {
-        "highway": "street_lamp"
-      }
-    },
-    {
-      "name": {
-        "singular": "tree",
-        "plural": "trees"
-      },
-      "tags": {
-        "natural": "tree"
-      }
-    },
-    {
-      "name": {
-        "singular": "memorial",
-        "plural": "memorials"
-      },
-      "tags": {
-        "historic": "memorial"
-      }
-    },
-    {
-      "name": {
         "singular": "bus stop",
         "plural": "bus stops"
       },
@@ -65,33 +9,7 @@
         "highway": "bus_stop"
       }
     },
-    {
-      "name": {
-        "singular": "fire station",
-        "plural": "fire stations"
-      },
-      "tags": {
-        "amenity": "fire_station"
-      }
-    },
-    {
-      "name": {
-        "singular": "bench",
-        "plural": "benches"
-      },
-      "tags": {
-        "amenity": "bench"
-      }
-    },
-    {
-      "name": {
-        "singular": "village",
-        "plural": "villages"
-      },
-      "tags": {
-        "place": "village"
-      }
-    },
+
     {
       "name": {
         "singular": "post box",
@@ -108,6 +26,114 @@
       },
       "tags": {
         "amenity": "recycling"
+      }
+    },
+    {
+      "name": {
+        "singular": "insurance office",
+        "plural": "insurance offices"
+      },
+      "tags": {
+        "office": "insurance"
+      }
+    },
+    {
+      "name": {
+        "singular": "lawyer office",
+        "plural": "lawyer offices"
+      },
+      "tags": {
+        "office": "lawyer"
+      }
+    },
+    {
+      "name": {
+        "singular": "place of worship",
+        "plural": "places of worship"
+      },
+      "tags": {
+        "amenity": "place_of_worship"
+      }
+    },
+    {
+      "name": {
+        "singular": "playground",
+        "plural": "playgrounds"
+      },
+      "tags": {
+        "leisure": "playground"
+      }
+    },
+    {
+      "name": {
+        "singular": "sports center",
+        "plural": "sports center"
+      },
+      "tags": {
+        "leisure": "sports_centre"
+      }
+    },
+    {
+      "name": {
+        "singular": "supermarket",
+        "plural": "supermarkets"
+      },
+      "tags": {
+        "shop": "supermarket"
+      }
+    },
+    {
+      "name": {
+        "singular": "convenience store",
+        "plural": "convenience stores"
+      },
+      "tags": {
+        "shop": "convenience"
+      }
+    },
+    {
+      "name": {
+        "singular": "kiosk",
+        "plural": "kiosks"
+      },
+      "tags": {
+        "shop": "kiosk"
+      }
+    },
+    {
+      "name": {
+        "singular": "clothes store",
+        "plural": "clothes stores"
+      },
+      "tags": {
+        "shop": "clothes"
+      }
+    },
+    {
+      "name": {
+        "singular": "hairdresser",
+        "plural": "hairdressers"
+      },
+      "tags": {
+        "shop": "hairdresser"
+      }
+    },
+    {
+      "name": {
+        "singular": "alcohol store",
+        "plural": "alcohol stores"
+      },
+      "tags": {
+        "shop": "alcohol"
+      }
+    },
+    {
+      "name": {
+        "singular": "defibrillator",
+        "plural": "defibrillators"
+      },
+      "tags": {
+        "emergency": "defibrillator"
       }
     }
   ]

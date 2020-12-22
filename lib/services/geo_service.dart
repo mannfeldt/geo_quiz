@@ -8,7 +8,7 @@ import '../api/overpass_api.dart';
 import '../models/overpass_query.dart';
 
 class GeoService {
-  GeoService({@required this.overpassApi, this.fileName = 'cities_de'})
+  GeoService({@required this.overpassApi, this.fileName = 'cities_us'})
       : assert(overpassApi != null);
 
   final OverpassApi overpassApi;
@@ -71,15 +71,18 @@ class Location {
   final double longitude;
   final double latitude;
   final String name;
+  final int population;
 
   Location({
     this.longitude,
     this.latitude,
     this.name,
+    this.population,
   });
 
   Location.fromJson(Map<dynamic, dynamic> json)
       : longitude = json['lon'],
         latitude = json['lat'],
-        name = json['tags']['name'];
+        name = json['tags']['name'],
+        population = int.tryParse(json['tags']['population'] ?? "0");
 }
